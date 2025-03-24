@@ -59,5 +59,8 @@ class Program
       int num5 = 10;
       num5++;
       Console.WriteLine(num5);
+      num5--;
+      num5--;
+      Console.WriteLine(num5);
 }
 }
