@@ -60,7 +60,7 @@ class Program
       num5++;
       Console.WriteLine(num5);
       num5--;
-      num5--;
+      num5--; //assuming we want to decrease the original value of num5 by 1
       Console.WriteLine(num5);
 }
 }
