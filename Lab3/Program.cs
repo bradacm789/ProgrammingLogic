@@ -15,6 +15,17 @@ class Program
       Console.WriteLine("a > b or a > c: " + (a > b || a > c));
 
       //Part 2 - Boolean Logic
+      bool isRaining = true;
+      bool haveUmbrella = false;
+
+      if (isRaining && !haveUmbrella)
+        {
+          Console.WriteLine("Take an umbrella!");
+        }
+      else
+        {
+          Console.WriteLine("You're good to go!");
+        }  
 
       //Part 3 - Movie Ticket Pricing
 
