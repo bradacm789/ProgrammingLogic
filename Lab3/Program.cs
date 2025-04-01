@@ -28,6 +28,28 @@ class Program
         }  
 
       //Part 3 - Movie Ticket Pricing
+    Console.WriteLine("Enter your age.");
+    int userAge = int.Parse(Console.ReadLine());
+
+    if (userAge <5)
+      {
+        Console.WriteLine("Ticket is free!");
+      }
+    else if (userAge >=5 && userAge <13)
+      {
+        Console.WriteLine("Child ticket: $5");
+      }
+    else if (userAge >=13 && userAge <65)
+      {
+        Console.WriteLine("Standard ticket: $10");
+      }
+    else
+      {
+        Console.WriteLine("Senior ticket: $6");
+      }
+
+
+
 
       //Part 4 - Using a Switch Statement
     }
