@@ -18,6 +18,8 @@ class Program
       Console.WriteLine("Season: " + season);
     }
 
+    Console.WriteLine();
+
       //Problem 2 - Days of the Week(1-7)
     {
       string[] days = {"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday" };
@@ -69,17 +71,58 @@ class Program
             Console.WriteLine("Invalid input. Please enter a number between 1 and 7.");
         }
       }
+
+      Console.WriteLine();
+
     }
       //Problem 3 - Favorite Books and Authors
     {
         string[] books = {"The Stand", "The Lion the Witch and the Wardrobe", "Swan Song"};
         string[] authors = {"Stephen King", "C.S. Lewis", "Robert McCammon"};
 
-
+        for (int i=0; i < books.Length; i++)
+        {
+          int b = i+1;
+          Console.WriteLine("Book " + b +": " + books[i] + " by " + authors[i]);
+        }
     }
-      
 
+    Console.WriteLine();
 
+    //Problem 4 - Temperature Tracker
+    {
+        int[] temperatures = { 65, 72, 78, 70, 68 };
 
+        Array.Sort(temperatures);
+        Console.Write("Sorted Temperatures: ");
+
+        foreach (int temp in temperatures)
+          {
+            Console.Write(temp + " ");
+          }
+
+          Console.WriteLine();
+
+        int highTemp = temperatures[temperatures.Length - 1];
+        Console.WriteLine("Highest Temperature: " + highTemp);
+
+        int lowTemp = temperatures[0];
+        Console.WriteLine("Lowest Temperature: " + lowTemp);
     }
-}
+
+    Console.WriteLine();
+
+    //Problem 5 - Reverse Countdown
+    {
+        int[] countdown = { 5, 4, 3, 2, 1 };
+
+        Array.Reverse(countdown);
+        Console.Write("Countdown: ");
+
+        for (int j=0; j < countdown.Length; j++)
+          {
+            Console.Write(countdown[j] + " ");
+          }
+    }
+    }
+    }
