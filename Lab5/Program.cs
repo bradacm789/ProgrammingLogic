@@ -124,5 +124,6 @@ class Program
             Console.Write(countdown[j] + " ");
           }
     }
+    Console.ReadKey();
     }
     }
