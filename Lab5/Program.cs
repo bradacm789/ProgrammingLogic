@@ -29,7 +29,7 @@ class Program
       while (!valid)
       {
       Console.Write("Enter a number (1-7): ");
-        day = Console.ReadLine();
+        day = Console.ReadLine()!;
 
         if (day == "1")
         {
