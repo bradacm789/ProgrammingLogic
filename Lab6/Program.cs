@@ -16,6 +16,18 @@ class Car
     Console.WriteLine("Color: " + color);
     Console.WriteLine("Year: " + year);
   }
+
+// Problem 1: Add a Methog with No Parameters
+public void Drive(int miles)
+  {
+    Console.WriteLine("The car drove " + miles + " miles");
+  }
+
+// Problem 2: Add a Method with Parameters
+public void Start()
+  {
+    Console.WriteLine("The car is starting.");
+  }  
 }
 
 class Program
@@ -29,5 +41,9 @@ class Program
     myCar.year = 2020;
 
     myCar.Display(); // Calling the Display method
+
+    myCar.Start();
+
+    myCar.Drive(50);
   }
 }
