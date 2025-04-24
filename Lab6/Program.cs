@@ -64,7 +64,7 @@ class Program
     Console.WriteLine("Car Description: " + description);
 
     myCar.Repaint("Red");
-        Console.WriteLine("New Color: " + myCar.color);
+       
   }
 
 }
