@@ -4,8 +4,8 @@ using System;
 
 class Car
 {
-  public string model;
-  public string color;
+  public string model ="";
+  public string color ="";
   public int year;
 
   // Example method to display car details. You can use this as an example for the other methods.
@@ -35,6 +35,13 @@ public string GetDescription()
     return year + " " + color + " " + model;
   }
 
+// Problem 4: Add a Method that Updates a Field
+public void Repaint(string newColor)
+  {
+    color = newColor;
+    Console.WriteLine("The car has been repainted to " + newColor + ".");
+  }
+
 }
 
 class Program
@@ -54,6 +61,10 @@ class Program
     myCar.Drive(50);
 
     string description = myCar.GetDescription();
-    Console.WriteLine("Car Description: ") + description;
+    Console.WriteLine("Car Description: " + description);
+
+    myCar.Repaint("Red");
+        Console.WriteLine("New Color: " + myCar.color);
   }
+
 }
