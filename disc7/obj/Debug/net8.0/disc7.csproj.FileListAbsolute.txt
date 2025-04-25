@@ -1,0 +1,15 @@
+/workspaces/ProgrammingLogic/disc7/bin/Debug/net8.0/disc7
+/workspaces/ProgrammingLogic/disc7/bin/Debug/net8.0/disc7.deps.json
+/workspaces/ProgrammingLogic/disc7/bin/Debug/net8.0/disc7.runtimeconfig.json
+/workspaces/ProgrammingLogic/disc7/bin/Debug/net8.0/disc7.dll
+/workspaces/ProgrammingLogic/disc7/bin/Debug/net8.0/disc7.pdb
+/workspaces/ProgrammingLogic/disc7/obj/Debug/net8.0/disc7.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/ProgrammingLogic/disc7/obj/Debug/net8.0/disc7.AssemblyInfoInputs.cache
+/workspaces/ProgrammingLogic/disc7/obj/Debug/net8.0/disc7.AssemblyInfo.cs
+/workspaces/ProgrammingLogic/disc7/obj/Debug/net8.0/disc7.csproj.CoreCompileInputs.cache
+/workspaces/ProgrammingLogic/disc7/obj/Debug/net8.0/disc7.sourcelink.json
+/workspaces/ProgrammingLogic/disc7/obj/Debug/net8.0/disc7.dll
+/workspaces/ProgrammingLogic/disc7/obj/Debug/net8.0/refint/disc7.dll
+/workspaces/ProgrammingLogic/disc7/obj/Debug/net8.0/disc7.pdb
+/workspaces/ProgrammingLogic/disc7/obj/Debug/net8.0/disc7.genruntimeconfig.cache
+/workspaces/ProgrammingLogic/disc7/obj/Debug/net8.0/ref/disc7.dll
