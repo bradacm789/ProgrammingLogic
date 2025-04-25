@@ -72,5 +72,15 @@ class Program
         Book book3 = new Book("Frankenstein", "Mary Shelley");
         Console.WriteLine("Title: " + book3.GetTitle());
         Console.WriteLine("Author: " + book3.GetAuthor());
+
+        Console.WriteLine();
+
+        Book book4 = new Book();
+        book4.SetTitle("Dracula");
+        book4.SetAuthor("Bram Stoker");
+        Console.WriteLine("Title: " + book4.GetTitle());
+        Console.WriteLine("Author: " + book4.GetAuthor());
+
+        Console.WriteLine();
     }
 }
