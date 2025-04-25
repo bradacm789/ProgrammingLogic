@@ -1,5 +1,6 @@
 ﻿namespace Lab7;
 
+// Problem 1: Create a Class with a Default Constructor
 class Book
 {
     private string title;
@@ -18,6 +19,15 @@ class Book
     {
         title = newTitle;
     }
+
+//Problem 2: Add a Parameterized Constructor
+
+public Book(string titleName)
+  {
+    title = titleName;
+  }
+
+
 }
 
 class Program
@@ -29,5 +39,10 @@ class Program
 
         book1.SetTitle("C# Fundamentals");
         Console.WriteLine(book1.GetTitle());  // Output: C# Fundamentals
+
+        Console.WriteLine();
+
+        Book book2 = new Book("Advanced c#");
+        Console.WriteLine(book2.GetTitle());
     }
 }
