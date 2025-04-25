@@ -1,16 +1,34 @@
 ﻿namespace Lab7;
 
-// Problem 1: Create a Class with a Default Constructor
 class Book
 {
     private string title;
+    private string author;
 
+// Problem 1: Create a Class with a Default Constructor
     public Book()  // Default Constructor
     {
         title = "The Stand";
+        author = "Stephen King";
     }
 
-    public string GetTitle()
+//Problem 2: Add a Parameterized Constructor
+
+public Book(string titleName)
+  {
+    title = titleName;
+    author = "Stephen King";
+  }
+
+//Problem 3: Constructor Overloading
+
+public Book(string titleName, string authorName)
+  {
+    title = titleName;
+    author = authorName;
+  }  
+
+public string GetTitle()
     {
         return title;
     }
@@ -20,13 +38,15 @@ class Book
         title = newTitle;
     }
 
-//Problem 2: Add a Parameterized Constructor
+    public string GetAuthor()
+    {
+        return author;
+    }
 
-public Book(string titleName)
-  {
-    title = titleName;
-  }
-
+    public void SetAuthor(string newAuthor)
+    {
+        author = newAuthor;
+    }
 
 }
 
@@ -34,6 +54,8 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine();
+        
         Book book1 = new Book();
         Console.WriteLine(book1.GetTitle());  // Output: Unknown Title
 
@@ -44,5 +66,11 @@ class Program
 
         Book book2 = new Book("Advanced c#");
         Console.WriteLine(book2.GetTitle());
+
+        Console.WriteLine();
+
+        Book book3 = new Book("Frankenstein", "Mary Shelley");
+        Console.WriteLine("Title: " + book3.GetTitle());
+        Console.WriteLine("Author: " + book3.GetAuthor());
     }
 }
