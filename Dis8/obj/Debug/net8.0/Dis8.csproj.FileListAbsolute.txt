@@ -1,0 +1,15 @@
+/workspaces/ProgrammingLogic/Dis8/bin/Debug/net8.0/Dis8
+/workspaces/ProgrammingLogic/Dis8/bin/Debug/net8.0/Dis8.deps.json
+/workspaces/ProgrammingLogic/Dis8/bin/Debug/net8.0/Dis8.runtimeconfig.json
+/workspaces/ProgrammingLogic/Dis8/bin/Debug/net8.0/Dis8.dll
+/workspaces/ProgrammingLogic/Dis8/bin/Debug/net8.0/Dis8.pdb
+/workspaces/ProgrammingLogic/Dis8/obj/Debug/net8.0/Dis8.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/ProgrammingLogic/Dis8/obj/Debug/net8.0/Dis8.AssemblyInfoInputs.cache
+/workspaces/ProgrammingLogic/Dis8/obj/Debug/net8.0/Dis8.AssemblyInfo.cs
+/workspaces/ProgrammingLogic/Dis8/obj/Debug/net8.0/Dis8.csproj.CoreCompileInputs.cache
+/workspaces/ProgrammingLogic/Dis8/obj/Debug/net8.0/Dis8.sourcelink.json
+/workspaces/ProgrammingLogic/Dis8/obj/Debug/net8.0/Dis8.dll
+/workspaces/ProgrammingLogic/Dis8/obj/Debug/net8.0/refint/Dis8.dll
+/workspaces/ProgrammingLogic/Dis8/obj/Debug/net8.0/Dis8.pdb
+/workspaces/ProgrammingLogic/Dis8/obj/Debug/net8.0/Dis8.genruntimeconfig.cache
+/workspaces/ProgrammingLogic/Dis8/obj/Debug/net8.0/ref/Dis8.dll
